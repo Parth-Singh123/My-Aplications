@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graf"
+    app:startDestination="@id/recorderfragment">
+
+    <fragment
+        android:id="@+id/recorderfragment"
+        android:name="com.example.voicerecorder.recorderfragment"
+        android:label="fragment_recorderfragment"
+        tools:layout="@layout/fragment_recorderfragment" />
+    <fragment
+        android:id="@+id/listfragment"
+        android:name="com.example.voicerecorder.listfragment"
+        android:label="fragment_listfragment"
+        tools:layout="@layout/fragment_listfragment" />
+</navigation>
